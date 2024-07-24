@@ -1,15 +1,53 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file if you have one -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="public/about.html">About Me</a></li>
+                <li><a href="public/contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+    <main>
+        <section id="projects">
+            <h2>My Projects</h2>
 
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+            <!-- Birthday Invite Project -->
+            <article class="project">
+                <h3>Birthday Invite</h3>
+                <p>Short description of the Birthday Invite project.</p>
+                <a href="public/birthday-invite.html">
+                    <img src="images/birthday-invite.png" alt="Birthday Invite Screenshot" height="200">
+                </a>
+                <p><a href="public/birthday-invite.html">View Project</a></p>
+            </article>
 
-<!-- TODO 4: Add titles/subtitles etc. -->
+            <!-- Movie Ranking Project -->
+            <article class="project">
+                <h3>Movie Ranking</h3>
+                <p>Short description of the Movie Ranking project.</p>
+                <a href="public/movie-ranking.html">
+                    <img src="images/movie-ranking.png" alt="Movie Ranking Screenshot" height="200">
+                </a>
+                <p><a href="public/movie-ranking.html">View Project</a></p>
+            </article>
 
-<!-- TODO 5: Add a link to the project pages -->
+            <!-- Add more projects as needed -->
+        </section>
+    </main>
 
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
